@@ -1,15 +1,26 @@
 ---
 layout: default
 title:  "Index"
+display_tags:
+ - Wifi
+ - Downstairs
+ - Upstairs
+ - Attic
+ - Hot Water
+ - Alexa
+ - Alarm
 ---
 
-### Posts
-
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<div id="tags_list" class="row">
+  {% for display_tag in page.display_tags %}
+    <div class="column">
+      {% assign tag = site.tags[display_tag] %}
+      <h3>{{ display_tag }}</h3>
+      <ul>
+        {% for post in tag %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

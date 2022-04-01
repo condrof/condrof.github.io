@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Wifi Trouble"
-tags: ["wifi", "Downstairs", "Upstairs", "Attic"]
+tags: ["Wifi", "Downstairs", "Upstairs", "Attic"]
 permalink: /wifi/troubleshoot
 ---
 
