@@ -3,6 +3,7 @@ layout: default
 title:  "Index"
 display_tags:
  - Wifi
+ - Lights
  - Downstairs
  - Upstairs
  - Attic

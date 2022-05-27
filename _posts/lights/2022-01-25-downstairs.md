@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Downstairs"
+title:  "Downstairs Lights"
 tags: ["Downstairs", "Lights", "Alexa"]
 permalink: /lights/downstairs
 ---
